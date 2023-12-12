@@ -1,1 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
+
+.card-custom {
+    background-color: purple; 
+    font-size: 20px; 
+
+    .card-head {
+        background-image: url(/public/img/movie_bg.jpg);
+        padding: 10px 0;
+    }
+
+    .card-body {
+        color: azure;
+    }
+}
